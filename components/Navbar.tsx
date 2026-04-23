@@ -61,11 +61,16 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Button ONLY */}
+
         <button
-          className="sm:hidden text-3xl text-gray-800"
           onClick={() => setIsOpen(!isOpen)}
+          className="sm:hidden flex items-center justify-center w-8 h-8 rounded-sm bg-[#151515]"
         >
-          {isOpen ? <IoClose /> : <IoMenu />}
+          {isOpen ? (
+            <IoClose size={27} className="text-white" />
+          ) : (
+            <IoMenu size={27} className="text-white" />
+          )}
         </button>
       </div>
 
