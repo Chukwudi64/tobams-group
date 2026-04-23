@@ -77,8 +77,8 @@ export function Navbar() {
         className="hidden sm:flex w-full justify-center py-2 md:py-3 lg:py-5"
         aria-label="Main Navigation"
       >
-        <div className="max-w-7xl w-full px-4 sm:px-6 flex justify-center">
-          <ul className="flex items-center justify-center gap-4 lg:gap-8 flex-wrap lg:flex-nowrap text-sm font-medium text-gray-700">
+        <div className="max-w-7xl w-full px-6 lg:px-10 flex justify-center">
+          <ul className="flex items-center justify-center gap-3 md:gap-5 lg:gap-6 flex-wrap lg:flex-nowrap">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link
