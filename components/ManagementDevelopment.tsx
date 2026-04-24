@@ -10,7 +10,7 @@ export function ManagementDevelopment() {
   ];
 
   return (
-    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-[#5712441A]">
       <div className="max-w-6xl mx-auto bg-[#2C0922] rounded-[20px] p-6 sm:p-8 lg:p-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-stretch">
           {/* DESKTOP IMAGE */}
