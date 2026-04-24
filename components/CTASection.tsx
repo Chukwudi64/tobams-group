@@ -1,7 +1,7 @@
 export function CTASection() {
   return (
     <section className="py-12 sm:py-16 lg:py-10 px-4 sm:px-6 lg:px-16 bg-[#1D0617] border-b-2 border-[#C4C4C4]">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-6 lg:gap-10">
           {/* Text Content */}
           <div className="max-w-2xl">

@@ -23,8 +23,14 @@ export function Hero() {
           </span>
         </div>
 
-        <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-[130%] tracking-[0%] text-center text-white mb-6">
+{/* DESKTOP TITLE */}
+        <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-[130%] tracking-[0%] text-center text-white mb-6 hidden lg:block">
           Training and Development
+        </h1>
+
+        {/* MOBILE TITLE */}
+        <h1 className="font-serif font-bold text-xl sm:text-4xl md:text-5xl lg:text-[56px] leading-[130%] tracking-[0%] text-center text-white mb-6 block lg:hidden">
+          Learning and Development
         </h1>
 
         <p className="font-sans font-semibold text-[18px] leading-[150%] tracking-normal text-center text-white mb-8 sm:mb-10 text-lg sm:text-xl text-pretty">

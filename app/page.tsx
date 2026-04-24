@@ -10,6 +10,7 @@ import { TrainingConsultant } from "@/components/TrainingConsultant";
 import { BookConsultation } from "@/components/BookConsultation";
 import { Testimonials } from "@/components/Testimonials";
 import { CTASection } from "@/components/CTASection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Testimonials />
         <CTASection />
       </main>
+      <Footer />
     </div>
   );
 }
