@@ -40,7 +40,7 @@ export function Hero() {
     rounded-sm
     bg-[#571244] hover:bg-[#571244]/90
     text-white
-    font-['Nunito Sans'] font-semibold
+    font-sans font-semibold
     text-[18px] leading-[150%]
     text-center
     cursor-pointer

@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -16,9 +14,7 @@ export function LearningManagement() {
   return (
     <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-[#5712441A] my-6">
       <div className="max-w-6xl mx-auto">
-
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
-
           {/* TITLE (mobile first) */}
           <h2 className="lg:hidden font-serif font-semibold text-[20px] sm:text-[30px] leading-[150%] text-[#571244]">
             Learning Management System
@@ -38,7 +34,6 @@ export function LearningManagement() {
 
           {/* RIGHT SIDE CONTENT */}
           <div className="w-full">
-
             {/* TITLE (desktop only) */}
             <h2 className="hidden lg:block font-serif font-semibold text-[30px] leading-[150%] text-[#571244] mb-4">
               Learning Management System
@@ -46,17 +41,16 @@ export function LearningManagement() {
 
             {/* CARD */}
             <div className="w-full p-5 sm:p-6 rounded-lg bg-[#5712441A]">
-
               <p className="text-[16px] sm:text-[18px] leading-[150%] text-[#151515]">
                 TG Academy is a hub of knowledge and skill-building resources
-                designed to empower tech talents on their learning journey.
-                From technical courses covering the latest programming
-                languages and development frameworks to soft skills training
-                in leadership, effective communication and project management,
-                TG Academy offers a wide range of courses to cater to diverse
-                learning needs. With accessible and interactive learning
-                materials, individuals can enhance their skills and stay ahead
-                in today&apos;s competitive tech landscape.
+                designed to empower tech talents on their learning journey. From
+                technical courses covering the latest programming languages and
+                development frameworks to soft skills training in leadership,
+                effective communication and project management, TG Academy
+                offers a wide range of courses to cater to diverse learning
+                needs. With accessible and interactive learning materials,
+                individuals can enhance their skills and stay ahead in
+                today&apos;s competitive tech landscape.
               </p>
 
               <p className="font-bold text-[16px] sm:text-[18px] text-[#571244] my-4">
@@ -81,10 +75,8 @@ export function LearningManagement() {
                 Learn More
                 <MdArrowOutward />
               </button>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
