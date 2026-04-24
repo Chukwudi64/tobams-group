@@ -49,7 +49,7 @@ export function PersonalisedTraining() {
               the evolving needs of today&apos;s professionals.
             </p>
 
-            {/* TRAINING LIST */}
+            {/* TOPICS LIST */}
             <div className="space-y-3 sm:space-y-4">
               {topics.map((topic, index) => (
                 <div key={index} className="flex items-center gap-3 lg:pl-8">
