@@ -8,6 +8,7 @@ import { ManagementDevelopment } from "@/components/ManagementDevelopment";
 import { TransformationHub } from "@/components/TransformationHub";
 import { TrainingConsultant } from "@/components/TrainingConsultant";
 import { BookConsultation } from "@/components/BookConsultation";
+import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <TransformationHub />
         <TrainingConsultant />
         <BookConsultation />
+        <Testimonials />
       </main>
     </div>
   );
