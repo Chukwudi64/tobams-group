@@ -71,7 +71,7 @@ export function LearningManagement() {
               </div>
 
               {/* BUTTON */}
-              <button className="mt-6 w-full sm:w-auto px-6 py-3 flex items-center justify-center gap-2 bg-[#571244] hover:bg-[#571244]/90 text-white text-sm sm:text-base font-semibold rounded">
+              <button className="mt-6 w-full sm:w-auto px-6 py-3 flex items-center justify-center gap-2 bg-[#571244] hover:bg-[#571244]/90 text-white text-sm sm:text-base font-semibold rounded font-sans">
                 Learn More
                 <MdArrowOutward />
               </button>
