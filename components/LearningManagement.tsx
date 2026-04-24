@@ -41,7 +41,7 @@ export function LearningManagement() {
 
             {/* CARD */}
             <div className="w-full p-5 sm:p-6 rounded-lg bg-[#5712441A]">
-              <p className="text-[16px] sm:text-[18px] leading-[150%] text-[#151515]">
+              <p className="text-[16px] sm:text-[18px] leading-[150%] text-[#151515] font-sans">
                 TG Academy is a hub of knowledge and skill-building resources
                 designed to empower tech talents on their learning journey. From
                 technical courses covering the latest programming languages and
@@ -53,7 +53,7 @@ export function LearningManagement() {
                 today&apos;s competitive tech landscape.
               </p>
 
-              <p className="font-bold text-[16px] sm:text-[18px] text-[#571244] my-4">
+              <p className="font-bold text-[16px] sm:text-[18px] text-[#571244] my-4 font-sans">
                 Some of our courses include:
               </p>
 
@@ -62,7 +62,7 @@ export function LearningManagement() {
                 {courses.map((course, index) => (
                   <div
                     key={index}
-                    className="text-[13px] text-[#151515] flex items-center gap-2"
+                    className="text-[13px] text-[#151515] flex items-center gap-2 font-sans"
                   >
                     <span>•</span>
                     {course}
