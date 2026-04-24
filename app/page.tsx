@@ -9,6 +9,7 @@ import { TransformationHub } from "@/components/TransformationHub";
 import { TrainingConsultant } from "@/components/TrainingConsultant";
 import { BookConsultation } from "@/components/BookConsultation";
 import { Testimonials } from "@/components/Testimonials";
+import { CTASection } from "@/components/CTASection";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <TrainingConsultant />
         <BookConsultation />
         <Testimonials />
+        <CTASection />
       </main>
     </div>
   );
