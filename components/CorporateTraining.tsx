@@ -16,7 +16,7 @@ export function CorporateTraining() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-stretch">
           {/* LEFT SIDE (TEXT) */}
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#151515] mb-4 sm:mb-6 font-serif leading-[150%] tracking-[0.03em]">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#151515] mb-2 font-serif leading-[150%] tracking-[0.03em]">
               Corporate Trainings
             </h2>
 
@@ -26,7 +26,7 @@ export function CorporateTraining() {
                 src="/ct-img.webp"
                 alt="Corporate training session with team members and facilitator"
                 fill
-                className="object-cover rounded-tl-[56px] rounded-tr-3xl rounded-br-[23px] rounded-bl-xl"
+                className="object-cover rounded-tl-[30px] rounded-tr-3xl rounded-br-[23px] rounded-bl-[40px]"
               />
             </div>
 
@@ -41,7 +41,7 @@ export function CorporateTraining() {
             {/* TRAINING LIST */}
             <div className="space-y-3 sm:space-y-4">
               {trainings.map((training, index) => (
-                <div key={index} className="flex items-center gap-3">
+                <div key={index} className="flex items-center gap-3 lg:pl-8">
                   <BsFillLightningChargeFill className="text-[#480F39]" />
                   <span className="font-sans text-base sm:text-[18px] text-[#696969]">
                     {training}
