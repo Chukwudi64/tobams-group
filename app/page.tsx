@@ -4,6 +4,7 @@ import { LearningManagement } from '@/components/LearningManagement';
 import { CorporateTraining } from "@/components/CorporateTraining";
 import { PersonalisedTraining } from "@/components/PersonalisedTraining";
 import { CapacityDevelopment } from "@/components/CapacityDevelopment";
+import { ManagementDevelopment } from "@/components/ManagementDevelopment";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <CorporateTraining />
         <PersonalisedTraining />
         <CapacityDevelopment />
+        <ManagementDevelopment />
       </main>
     </div>
   );
